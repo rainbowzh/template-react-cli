@@ -1,0 +1,9 @@
+{
+  "main.js": "/js/main.js",
+  "main.css": "/css/main.css",
+  "main.js.map": "/js/main.js.map",
+  "vendors~main.js": "/js/vendors~main.js",
+  "vendors~main.js.map": "/js/vendors~main.js.map",
+  "css/index.css": "/css/index.css",
+  "index.html": "/index.html"
+}
