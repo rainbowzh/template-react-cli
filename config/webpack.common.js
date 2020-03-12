@@ -4,7 +4,7 @@
  * @Author: zhouhong07
  * @Date: 2020-03-04 16:01:56
  * @LastEditors: zhouhong07
- * @LastEditTime: 2020-03-11 10:15:55
+ * @LastEditTime: 2020-03-11 15:16:14
  */
 const path =  require("path") ;
 const HtmlWebpackPlugin = require('html-webpack-plugin') ;//生成打包文件中的index.html
@@ -91,10 +91,11 @@ function webpackCommonConfigCreator(options){
           exclude: path.resolve(__dirname, '../src'),
           use: [
               "style-loader",
+              // "css-loader" ,
               {
                 loader: 'file-loader',
                 options: {
-                    name: "css/[name].css",
+                    name: "css/[name][hash].css",
                     publicPath: "/"
                 }
               }
@@ -144,4 +145,4 @@ function webpackCommonConfigCreator(options){
   }
 }
 
-module.exports = webpackCommonConfigCreator
+module.exports = webpackCommonConfigCreator ;
