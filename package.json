@@ -23,7 +23,7 @@
     "file-loader": "^5.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    {{#if isElement}}
+    {{#if isRouter}}
     "react-router-dom": "^5.1.2",
     {{/if}}
     "style-loader": "^1.1.3",
