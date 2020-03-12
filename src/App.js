@@ -4,11 +4,10 @@
  * @Author: zhouhong07
  * @Date: 2020-03-04 16:57:46
  * @LastEditors: zhouhong07
- * @LastEditTime: 2020-03-11 10:39:23
+ * @LastEditTime: 2020-03-12 14:21:46
  */
 import React from 'react' ;
 import { hot } from 'react-hot-loader/root' ;
-import { Button , Calendar } from 'antd';
 import "./app.scss" ;
 
 
@@ -17,9 +16,8 @@ const App = () =>{
   let newArr = new Set(arr) ;
   console.log("xx",[...newArr]) ;
   return(
-    <div className="text">hello react
-      <Button>click me2</Button>
-      <Calendar/>
+    <div className="text">
+      hello, welcome to rainbow's home
     </div>
   )
 }
